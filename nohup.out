@@ -1,0 +1,2121 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 469-827-475
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/Sep/2021 11:30:04] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:05] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 11:30:08] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 12:29:19] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:22] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:23] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:24] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:24] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:24] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:24] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:24] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:24] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:24] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 15:05:29] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:58] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:17:59] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:00] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:18:07] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:40] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:41] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/trustswap HTTP/1.1" 200 -
+Forming results...
+Handling a PUTaave
+aave
+Printing last_price: 
+330.95
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+27.54
+Handling a PUTneo
+neo
+Printing last_price: 
+49.06
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.29
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46096
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.43
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+410.42
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3475.93
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+37.23
+Handling a PUTarweave
+arweave
+Printing last_price: 
+62.93
+Handling a PUTsolana
+solana
+Printing last_price: 
+209.08
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+30.21
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+58.83
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.09
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+19.79
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.31
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.73
+Handling a PUTstatus
+status
+Printing last_price: 
+0.097797
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.823315
+Handling a PUTzcash
+zcash
+Printing last_price: 
+134.3
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.60114
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.46
+Handling a PUTdash
+dash
+Printing last_price: 
+200.84
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.680754
+Handling a PUTmonero
+monero
+Printing last_price: 
+259.21
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.339562
+Handling a PUTpha
+pha
+Printing last_price: 
+0.859468
+Handling a PUTiota
+iota
+Printing last_price: 
+1.52
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+664.66
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.329762
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.32
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+17.27
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.76
+<class 'dict'>
+Forming results...
+Forming results...
+Forming results...
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+28.8
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+42.02
+Handling a PUTneo
+neo
+Printing last_price: 
+50.92
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3494.21
+Handling a PUTarweave
+arweave
+Printing last_price: 
+61.08
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46245
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.53
+Handling a PUTsolana
+solana
+Printing last_price: 
+206.0
+Handling a PUTaave
+aave
+Printing last_price: 
+337.58
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.11
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+30.37
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+415.01
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.39
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+59.33
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.15
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.44
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.76
+Handling a PUTstatus
+status
+Printing last_price: 
+0.098849
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.836647
+Handling a PUTzcash
+zcash
+Printing last_price: 
+140.88
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.617024
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.83
+Handling a PUTdash
+dash
+Printing last_price: 
+205.09
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.705607
+Handling a PUTmonero
+monero
+Printing last_price: 
+262.78
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.347562
+Handling a PUTpha
+pha
+Printing last_price: 
+0.895023
+Handling a PUTiota
+iota
+Printing last_price: 
+1.56
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+668.5
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.33588
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.36
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+17.68
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.77
+<class 'dict'>
+Forming results...
+Forming results...
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+60.12
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.4
+Handling a PUTaave
+aave
+Printing last_price: 
+339.17
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46620
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+43.34
+Handling a PUTsolana
+solana
+Printing last_price: 
+209.26
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.57
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+29.21
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+30.57
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.13
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+419.53
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3528.38
+Handling a PUTarweave
+arweave
+Printing last_price: 
+62.76
+Handling a PUTneo
+neo
+Printing last_price: 
+51.28
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.28
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.91
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.88
+Handling a PUTstatus
+status
+Printing last_price: 
+0.099177
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.840304
+Handling a PUTzcash
+zcash
+Printing last_price: 
+142.86
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.615259
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.95
+Handling a PUTdash
+dash
+Printing last_price: 
+206.99
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.713213
+Handling a PUTmonero
+monero
+Printing last_price: 
+265.29
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.350455
+Handling a PUTpha
+pha
+Printing last_price: 
+0.904696
+Handling a PUTiota
+iota
+Printing last_price: 
+1.57
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+672.61
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.339497
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.32
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.2
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.78
+<class 'dict'>
+Forming results...
+Forming results...
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3560.25
+Handling a PUTneo
+neo
+Printing last_price: 
+51.51
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+30.47
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.41
+Handling a PUTarweave
+arweave
+Printing last_price: 
+63.66
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46575
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.59
+Handling a PUTsolana
+solana
+Printing last_price: 
+211.52
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.14
+Handling a PUTaave
+aave
+Printing last_price: 
+344.55
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+43.06
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+420.65
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+60.07
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.28
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+29.52
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.9
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.91
+Handling a PUTstatus
+status
+Printing last_price: 
+0.099066
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.847252
+Handling a PUTzcash
+zcash
+Printing last_price: 
+142.29
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.606336
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.93
+Handling a PUTdash
+dash
+Printing last_price: 
+207.71
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.718118
+Handling a PUTmonero
+monero
+Printing last_price: 
+265.48
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.35434
+Handling a PUTpha
+pha
+Printing last_price: 
+0.892897
+Handling a PUTiota
+iota
+Printing last_price: 
+1.59
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+672.65
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.339836
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.34
+Handling a PUTpolkadex
+polkadex127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:42] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 16:43:45] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:16] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:16] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:17] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 17:02:22] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:01:22] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:17] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:18] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:19] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 18:42:20] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 20:29:51] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:42] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:43] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:43] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:43] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:43] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:44] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:45] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 22:17:53] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:57] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+
+Printing last_price: 
+18.5
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.79
+<class 'dict'>
+Forming results...
+Forming results...
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46339
+Handling a PUTarweave
+arweave
+Printing last_price: 
+62.08
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.6
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.2
+Handling a PUTaave
+aave
+Printing last_price: 
+342.73
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+418.71
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+43.09
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3532.59
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+30.14
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.4
+Handling a PUTneo
+neo
+Printing last_price: 
+51.22
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+59.65
+Handling a PUTsolana
+solana
+Printing last_price: 
+208.19
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+29.26
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.13
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.77
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.86
+Handling a PUTstatus
+status
+Printing last_price: 
+0.098932
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.839102
+Handling a PUTzcash
+zcash
+Printing last_price: 
+141.36
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.601571
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.78
+Handling a PUTdash
+dash
+Printing last_price: 
+205.43
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.715515
+Handling a PUTmonero
+monero
+Printing last_price: 
+264.19
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.352474
+Handling a PUTpha
+pha
+Printing last_price: 
+0.8868
+Handling a PUTiota
+iota
+Printing last_price: 
+1.59
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+670.34
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.338906
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.33
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.46
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.78
+<class 'dict'>
+Forming results...
+Forming results...
+Forming results...
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.37
+Handling a PUTsolana
+solana
+Printing last_price: 
+210.12
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+415.65
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46191
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.48
+Handling a PUTaave
+aave
+Printing last_price: 
+336.85
+Handling a PUTneo
+neo
+Printing last_price: 
+50.46
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+41.77
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+29.71
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.57
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.11
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+28.75
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3487.53
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+58.99
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.01
+Handling a PUTarweave
+arweave
+Printing last_price: 
+61.84
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.76
+Handling a PUTstatus
+status
+Printing last_price: 
+0.097711
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.825973
+Handling a PUTzcash
+zcash
+Printing last_price: 
+139.15
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.589005
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.72
+Handling a PUTdash
+dash
+Printing last_price: 
+201.11
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.705265
+Handling a PUTmonero
+monero
+Printing last_price: 
+262.36
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.34585
+Handling a PUTpha
+pha
+Printing last_price: 
+0.868922
+Handling a PUTiota
+iota
+Printing last_price: 
+1.56
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+666.73
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.334527
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.31
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.01
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.74
+<class 'dict'>
+Forming results...
+Forming results...
+Forming results...
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+419.1
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.4
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+42.47
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+47191
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+29.27
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.6
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+59.67
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.12
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+29.42
+Handling a PUTsolana
+solana
+Printing last_price: 
+200.32
+Handling a PUTneo
+neo
+Printing last_price: 
+51.39
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.53
+Handling a PUTaave
+aave
+Printing last_price: 
+344.18
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3544.74
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.19
+Handling a PUTarweave
+arweave
+Printing last_price: 
+61.72
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.85
+Handling a PUTstatus
+status
+Printing last_price: 
+0.097409
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.916525
+Handling a PUTzcash
+zcash
+Printing last_price: 
+141.02
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.58832
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.95
+Handling a PUTdash
+dash
+Printing last_price: 
+205.35
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.742915
+Handling a PUTmonero
+monero
+Printing last_price: 
+264.49
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.348863
+Handling a PUTpha
+pha
+Printing last_price: 
+0.88812
+Handling a PUTiota
+iota
+Printing last_price: 
+1.58
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+669.68
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.336823
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.31
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.19
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.9
+<class 'dict'>
+Forming results...
+Forming results...
+Handling a PUTneo
+neo
+Printing last_price: 
+51.4
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.59
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.12
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3539.02
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.4
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.45
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+47099
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+43.94
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+421.42
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+59.71
+Handling a PUTaave
+aave
+Printing last_price: 
+346.54
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+29.57
+Handling a PUTarweave
+arweave
+Printing last_price: 
+63.27
+Handling a PUTsolana
+solana
+Printing last_price: 
+201.66
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+29.8
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.33
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.62
+Handling a PUTstatus
+status
+Printing last_price: 
+0.097268
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.910582
+Handling a PUTzcash
+zcash
+Printing last_price: 
+140.44
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.597898
+Handling a PUTomisego
+omisego
+Printing last_price: 
+9.0
+Handling a PUTdash
+dash
+Printing last_price: 
+205.42
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.755461
+Handling a PUTmonero
+monero
+Printing last_price: 
+264.91
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.350706
+Handling a PUTpha
+pha
+Printing last_price: 
+0.88238
+Handling a PUTiota
+iota
+Printing last_price: 
+1.57
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+670.88
+Handling a PUTstellar127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:04:59] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2021 23:05:31] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:56] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:57] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:07:58] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 07:08:01] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:25] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:26] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:27] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:04:28] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 11:11:54] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:07] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:08] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:09] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:09] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:09] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:09] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:09] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:09] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:09] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 12:08:11] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:30] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:31] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:32] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:32] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:32] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/monero HTTP/1.1" 200 -
+
+stellar
+Printing last_price: 
+0.338804
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.31
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.57
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.89
+<class 'dict'>
+Forming results...
+Forming results...
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.53
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.1
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+30.25
+Handling a PUTneo
+neo
+Printing last_price: 
+50.67
+Handling a PUTsolana
+solana
+Printing last_price: 
+192.27
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+30.16
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+59.18
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.76
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46645
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.38
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.15
+Handling a PUTdash
+dash
+Printing last_price: 
+204.42
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.347767
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3461.89
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+423.7
+Handling a PUTaave
+aave
+Printing last_price: 
+336.9
+Handling a PUTarweave
+arweave
+Printing last_price: 
+65.34
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+41.23
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.22
+Handling a PUTstatus
+status
+Printing last_price: 
+0.097889
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.938855
+Handling a PUTzcash
+zcash
+Printing last_price: 
+138.42
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.594278
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.77
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.731969
+Handling a PUTmonero
+monero
+Printing last_price: 
+262.9
+Handling a PUTpha
+pha
+Printing last_price: 
+0.886295
+Handling a PUTiota
+iota
+Printing last_price: 
+1.55
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+663.77
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.336202
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.38
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.62
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.9
+<class 'dict'>
+Forming results...
+Forming results...
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+32.14
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.17
+Handling a PUTarweave
+arweave
+Printing last_price: 
+71.75
+Handling a PUTaave
+aave
+Printing last_price: 
+338.55
+Handling a PUTsolana
+solana
+Printing last_price: 
+192.94
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+436.13
+Handling a PUTdash
+dash
+Printing last_price: 
+211.24
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46865
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.43
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.55
+Handling a PUTneo
+neo
+Printing last_price: 
+52.23
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+21.41
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.25
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.355872
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+59.75
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3488.88
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+32.37
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.43
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+45.21
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.79
+Handling a PUTstatus
+status
+Printing last_price: 
+0.100598
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.967179
+Handling a PUTzcash
+zcash
+Printing last_price: 
+141.75
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.571354
+Handling a PUTomisego
+omisego
+Printing last_price: 
+9.21
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.794116
+Handling a PUTmonero
+monero
+Printing last_price: 
+266.99
+Handling a PUTpha
+pha
+Printing last_price: 
+0.896095
+Handling a PUTiota
+iota
+Printing last_price: 
+1.69
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+670.06
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.348824
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.45
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.91
+<class 'dict'>
+Forming results...
+Forming results...
+Forming results...
+Handling a PUTneo
+neo
+Printing last_price: 
+52.55
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.353905
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.42
+Handling a PUTsolana
+solana
+Printing last_price: 
+194.63
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+31.78
+Handling a PUTaave
+aave
+Printing last_price: 
+336.91
+Handling a PUTsushi
+sushi
+Printing last_price: 
+11.24
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+21.25
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+433.71
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46829
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.14
+Handling a PUTdash
+dash
+Printing last_price: 
+211.25
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+59.66
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3476.55
+Handling a PUTarweave
+arweave
+Printing last_price: 
+70.42
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.56
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+31.8
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.36
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+44.98
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.67
+Handling a PUTstatus
+status
+Printing last_price: 
+0.100775
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.947844
+Handling a PUTzcash
+zcash
+Printing last_price: 
+140.93
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.571674
+Handling a PUTomisego
+omisego
+Printing last_price: 
+9.09
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.783175
+Handling a PUTmonero
+monero
+Printing last_price: 
+266.26
+Handling a PUTpha
+pha
+Printing last_price: 
+0.895866
+Handling a PUTiota
+iota
+Printing last_price: 
+1.72
+Handling a PUTbitcoin-cash
+bitcoin-cash
+Printing last_price: 
+669.27
+Handling a PUTstellar
+stellar
+Printing last_price: 
+0.347253
+Handling a PUTpolkadex
+polkadex
+Printing last_price: 
+18.67
+Handling a PUTpolkastarter
+polkastarter
+Printing last_price: 
+1.92
+<class 'dict'>
+Forming results...
+Forming results...
+Handling a PUTethereum
+ethereum
+Printing last_price: 
+3414.7
+Handling a PUTbitcoin
+bitcoin
+Printing last_price: 
+46413
+Handling a PUTterra-luna
+terra-luna
+Printing last_price: 
+35.44
+Handling a PUTavalanche-2
+avalanche-2
+Printing last_price: 
+43.8
+Handling a PUTpolkadot
+polkadot
+Printing last_price: 
+31.97
+Handling a PUTsushi
+sushi
+Printing last_price: 
+10.94
+Handling a PUTchiliz
+chiliz
+Printing last_price: 
+0.35058
+Handling a PUTneo
+neo
+Printing last_price: 
+50.27
+Handling a PUTbinancecoin
+binancecoin
+Printing last_price: 
+416.45
+Handling a PUTdash
+dash
+Printing last_price: 
+204.84
+Handling a PUTaave
+aave
+Printing last_price: 
+326.14
+Handling a PUTarweave
+arweave
+Printing last_price: 
+65.48
+Handling a PUTripple
+ripple
+Printing last_price: 
+1.09
+Handling a PUTsolana
+solana
+Printing last_price: 
+184.39
+Handling a PUTcardano
+cardano
+Printing last_price: 
+2.49
+Handling a PUTethereum-classic
+ethereum-classic
+Printing last_price: 
+58.43
+Handling a PUTmatic-network
+matic-network
+Printing last_price: 
+1.37
+Handling a PUTtrustswap
+trustswap
+Printing last_price: 
+1.32
+Handling a PUTpancakeswap-token
+pancakeswap-token
+Printing last_price: 
+20.4
+Handling a PUToraichain-token
+oraichain-token
+Printing last_price: 
+9.72
+Handling a PUTstatus
+status
+Printing last_price: 
+0.095599
+Handling a PUTwaltonchain
+waltonchain
+Printing last_price: 
+0.91858
+Handling a PUTzcash
+zcash
+Printing last_price: 
+136.86
+Handling a PUTcivic
+civic
+Printing last_price: 
+0.545974
+Handling a PUTomisego
+omisego
+Printing last_price: 
+8.47
+Handling a PUTrepublic-protocol
+republic-protocol
+Printing last_price: 
+0.787728
+Handling a PUTmonero
+monero
+Printing last_price: 
+264.04
+Handling a PUTpha127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:34] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2021 18:08:38] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:07] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:08] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:08] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:09] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:10] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:10] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:10] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:10] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 18:58:18] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:31:55] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:00] "GET /holdings HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:00] "PUT /prices/ethereum HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:00] "PUT /prices/republic-protocol HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/monero HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/sushi HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/avalanche-2 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/matic-network HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/bitcoin HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/polkadot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/stellar HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/neo HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/pancakeswap-token HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/cardano HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/ripple HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/binancecoin HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/ethereum-classic HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/aave HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/status HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/zcash HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/iota HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/solana HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/terra-luna HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/civic HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/waltonchain HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/polkastarter HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/oraichain-token HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/dash HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/omisego HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:01] "PUT /prices/pha HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:02] "PUT /prices/polkadex HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:02] "PUT /prices/chiliz HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:02] "PUT /prices/arweave HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:02] "PUT /prices/trustswap HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:02] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:02] "POST /totalhist HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2021 20:32:05] "GET /holdings HTTP/1.1" 200 -
