@@ -2119,3 +2119,24 @@ Handling a PUTpha127.0.0.1 - - [10/Sep/2021 18:08:33] "PUT /prices/pha HTTP/1.1"
 127.0.0.1 - - [11/Sep/2021 20:32:02] "PUT /prices/bitcoin-cash HTTP/1.1" 200 -
 127.0.0.1 - - [11/Sep/2021 20:32:02] "POST /totalhist HTTP/1.1" 200 -
 127.0.0.1 - - [11/Sep/2021 20:32:05] "GET /holdings HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/Users/chrismilner/Bluemoon_Consulting/Projects/Flutter/app_back/venv/lib/python3.9/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/chrismilner/Bluemoon_Consulting/Projects/Flutter/app_back/dbapp.py", line 73, in <module>
+    get_holdings()
+  File "/Users/chrismilner/Bluemoon_Consulting/Projects/Flutter/app_back/dbapp.py", line 22, in get_holdings
+    myHoldingsDict = r1.json()
+  File "/Users/chrismilner/Bluemoon_Consulting/Projects/Flutter/app_back/venv/lib/python3.9/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

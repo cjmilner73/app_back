@@ -13,8 +13,8 @@ def get_prices(url):
     return(r.json())
 
 def get_holdings():
-    # r1 =requests.get('http://127.0.0.1:5000/holdings')
-    r1 =requests.get('http://192.168.1.70:5000/holdings')
+    r1 =requests.get('http://127.0.0.1:5000/holdings')
+    # r1 =requests.get('http://192.168.1.70:5000/holdings')
     # Form URL from holdings
     
     total=0
