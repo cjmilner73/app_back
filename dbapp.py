@@ -44,7 +44,7 @@ def get_holdings():
                 bodyDict = {"name": k, "id": myHolding['id'], "amount": myHolding['amount'], "last_price": v['usd'], "day_change": formatShortChange}
                 update_prices(k, bodyDict)
                 total = total + (myHolding['amount'] * v['usd'])
-                print(k, myHolding['amount'])               
+                print(k, myHolding['amount'] * v['usd'])               
                 # url = 'http://127.0.0.1:5000/holdings'
                 # x = requests.post(url, json = json.dumps(myobj))
                 # print(x.text)               
