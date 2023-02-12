@@ -43,6 +43,7 @@ def get_holdings():
                 # print(formatShortChange)
                 bodyDict = {"name": k, "id": myHolding['id'], "amount": myHolding['amount'], "last_price": v['usd'], "day_change": formatShortChange}
                 update_prices(k, bodyDict)
+                print(bodyDict)
                 total = total + (myHolding['amount'] * v['usd'])
                 print(k, myHolding['amount'] * v['usd'])               
                 print(k, v['usd'])
@@ -58,16 +59,17 @@ def get_holdings():
 def update_prices(name, body):
     # body = {"name": "bitcoin", "id": "BTC", "amount": 500, "last_price": 2.5}
     # print(body)
-    url = 'http://192.168.1.70:5000/prices/' + name
+    # url = 'http://192.168.1.70:5000/prices/' + name
+    url = 'http://127.0.0.1:5000/prices/' + name
     r1 =requests.put(url, json=json.dumps(body))
-    # print(r1)
+    print(r1)
 
 def update_totalhists(body):
     print(body)
     toSend = json.dumps(body)
     # print(type(body))
-    # url = 'http://127.0.0.1:5000/totalhist'
-    url = 'http://192.168.1.70:5000/totalhist'
+    url = 'http://127.0.0.1:5000/totalhist'
+    # url = 'http://192.168.1.70:5000/totalhist'
     #r1 =requests.post(url, json=json.dumps(body))
     r1 =requests.post(url, json=body)
     # print(r1)
